@@ -1,6 +1,7 @@
 apiVersion: ambassador/v0
 kind: Mapping
 name: barong
-prefix: /barong
-rewrite: /barong
+host: barong.wb.local
+prefix: /
+rewrite: /
 service: barong:8001

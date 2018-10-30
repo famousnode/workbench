@@ -1,6 +1,7 @@
 apiVersion: ambassador/v0
 kind: Mapping
 name: peatio
-prefix: /peatio
-rewrite: /peatio
+host: peatio.wb.local
+prefix: /
+rewrite: /
 service: peatio:8000
